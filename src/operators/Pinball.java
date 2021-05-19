@@ -132,9 +132,9 @@ public class Pinball {
 	 */
 	public void Kahoot() {
 		System.out.println(
-				"Bienvenido a PintHoot, este juego es un nuevo juego que consiste en algo muy sencillo, déjame que se lo explique"
-						+ "va a consistir en que cada vez que usted caiga en una de nuestras 5 posiciones del kahoot va a recibir una pregunta"
-						+ "y si la contesta bien, su premio aumentará");
+				"Bienvenido a PintHoot, este juego es un nuevo juego que consiste en algo muy sencillo, déjame que se lo explique "
+						+"\n"+" va a consistir en que cada vez que usted caiga en una de nuestras 5 posiciones del kahoot va a recibir una pregunta "
+						+"\n"+" y si la contesta bien, su premio aumentará");
 	}
 
 	/**
