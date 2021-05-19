@@ -1,9 +1,13 @@
 package fpdualeveris;
 
-import operators.Pinball;
+/**
+ * Librerías importadas
+ */
+import operators.Start;
 
 /**
  * Clase FPDual
+ * 
  * @author jramlope
  *
  */
@@ -11,25 +15,24 @@ public class FPDual {
 
 	/**
 	 * Método main encargado de ejecutar el método operatorsChallenge
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
-		
+
 		operatorsChallenge();
-		
 
 	}
 
 	/**
-	 * Método privado que va a contener un objeto de la clase Pinball, y una llamada al método throwBall que tendrá
-	 * todo el código necesario
+	 * Método privado que va a contener un objeto de la clase Pinball, y una llamada
+	 * al método throwBall que tendrá todo el código necesario
 	 */
 	private static void operatorsChallenge() {
-		
-		Pinball p = new Pinball("Rojo",34);
-		
-		p.throwBall();
-		
+
+		Start s = new Start();
+
+		s.start();
+
 	}
 }
